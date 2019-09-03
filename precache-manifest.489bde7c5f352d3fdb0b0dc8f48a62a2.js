@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cfde91d225abea19e5a9390be3b9c71",
+    "revision": "a7b08f03d20f68743e7f5b968ff42139",
     "url": "/smartphone-shop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartphone-shop/static/css/2.b22d8062.chunk.css"
   },
   {
-    "revision": "3a1125580ea277f6029f",
+    "revision": "6ef36b65bbcfc2fafb0e",
     "url": "/smartphone-shop/static/css/main.4ef768e0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartphone-shop/static/js/2.58830e5a.chunk.js"
   },
   {
-    "revision": "3a1125580ea277f6029f",
-    "url": "/smartphone-shop/static/js/main.726f9df7.chunk.js"
+    "revision": "6ef36b65bbcfc2fafb0e",
+    "url": "/smartphone-shop/static/js/main.c9863540.chunk.js"
   },
   {
     "revision": "2e083aa573930fe476b3",
