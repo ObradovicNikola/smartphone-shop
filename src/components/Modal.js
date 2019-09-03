@@ -16,15 +16,15 @@ export default class Modal extends Component {
                                     <div className="row">
                                         <div id="modal" className="col-8 mx-auto col-md-6 col-lg-4 p-5 text-center text-capitalize">
                                             <h5>Item added to the cart</h5>
-                                            <img src={img} alt="product" className="img-fluid" />
+                                            <img src={`${process.env.PUBLIC_URL}/${img}`} alt="product" className="img-fluid" />
                                             <h5>{title}</h5>
                                             <h5 className="text-muted">price: ${price}</h5>
-                                            <Link to="/">
+                                            <Link to="/smartphone-shop/">
                                                 <button className="details-btn-blue" onClick={() => closeModal()}>
                                                     Store
                                                 </button>
                                             </Link>
-                                            <Link to="/cart">
+                                            <Link to="/smartphone-shop/cart">
                                                 <button className="details-btn-orange" onClick={() => closeModal()}>
                                                     Go To Cart
                                                 </button>

@@ -7,7 +7,7 @@ export default function CartItem({ value, item }) {
     return (
         <div className="row my-1 text-capitalize text-center">
             <div className="col-10 mx-auto col-lg-2">
-                <img src={img} alt="cart product" style={{ width: '5rem', height: '5rem' }} className="img-fluid" />
+                <img src={`${process.env.PUBLIC_URL}/${img}`} alt="cart product" style={{ width: '5rem', height: '5rem' }} className="img-fluid" />
             </div>
             <div className="col-10 mx-auto col-lg-2">
                 <span className="d-lg-none">product: </span>

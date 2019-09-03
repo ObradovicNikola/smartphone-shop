@@ -16,9 +16,9 @@ function App() {
     <React.Fragment>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={ProductList}></Route>
-        <Route path="/details" component={Details}></Route>
-        <Route path="/cart" component={Cart}></Route>
+        <Route exact path="/smartphone-shop/" component={ProductList}></Route>
+        <Route path="/smartphone-shop/details" component={Details}></Route>
+        <Route path="/smartphone-shop/cart" component={Cart}></Route>
         <Route component={Default}></Route>
       </Switch>
       <Modal />

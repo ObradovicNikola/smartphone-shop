@@ -19,7 +19,7 @@ export default class Details extends Component {
                             {/* product info */}
                             <div className="row">
                                 <div className="col-10 mx-auto col-md-6 my-3">
-                                    <img src={img} alt="product" className="img-fluid" />
+                                    <img src={`${process.env.PUBLIC_URL}/${img}`} alt="product" className="img-fluid" />
                                 </div>
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                                     <h2>model: {title}</h2>
@@ -33,7 +33,7 @@ export default class Details extends Component {
                                     </h4>
                                     <p className="text-capitalize font-weight-bold mt-3 mb-0">more about this product:</p>
                                     <p className="text-muted lead">{info}</p>
-                                    <Link to="/">
+                                    <Link to="/smartphone-shop/">
                                         <button className="details-btn-blue">Back To Products</button>
                                     </Link>
                                     <button className="details-btn-orange" disabled={inCart} onClick={() => {
