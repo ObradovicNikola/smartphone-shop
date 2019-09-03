@@ -1,0 +1,176 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+*/
+
+$main-blue: #2a2a72;
+$light-blue: #009ffd;
+$main-white: #f3f3f3;
+$main-dark: #232528;
+$main-orange: #ffa400;
+
+* {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Oswald', sans-serif !important;
+    background: $main-white !important;
+    color: $main-dark;
+}
+
+body * {
+    overflow: hidden;
+}
+
+.navButton {
+    border-color: $main-dark;
+    bottom: 0;
+    right: 0;
+    padding: 0.2rem 0.4rem;
+    color: $main-dark;
+    background: transparent;
+    font-size: 1.4rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.2rem;
+    transition: all 1s linear;
+}
+
+.navButton:hover {
+    background: $light-blue;
+    color: $main-white;
+}
+
+.text-title {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.text-blue {
+    color: $main-blue;
+}
+
+.text-bright {
+    color: $light-blue;
+}
+
+
+.card:hover {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: all 1s linear;
+}
+
+.img-container:hover .card-img-top {
+    transform: scale(1.2)
+}
+
+/* cart button */
+.cart-btn {
+    border-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.2rem 0.4rem;
+    background: $light-blue;
+    color: $main-white;
+    font-size: 1.4rem;
+    border-radius: 0.5rem 0 0 0;
+    transform: translate(100%, 100%);
+    transition: all 1s linear;
+}
+
+.img-container:hover .cart-btn {
+    transform: translate(0, 0)
+}
+
+.cart-btn:hover {
+    color: $main-blue;
+    cursor: pointer;
+}
+
+.card-footer {
+    background: transparent;
+    border-top: transparent;
+    transition: all 1s linear;
+}
+
+.details-btn-blue {
+    border-color: $light-blue;
+    bottom: 0;
+    right: 0;
+    padding: 0.2rem 0.4rem;
+    color: $light-blue;
+    background: $main-white;
+    font-size: 1.4rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.2rem;
+    transition: all 1s linear;
+}
+
+.details-btn-blue:hover {
+    background: $light-blue;
+    color: $main-white;
+}
+
+.details-btn-orange {
+    border-color: $main-orange;
+    bottom: 0;
+    right: 0;
+    padding: 0.2rem 0.4rem;
+    color: $main-orange;
+    background: $main-white;
+    font-size: 1.4rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.2rem;
+    transition: all 1s linear;
+}
+
+.details-btn-orange:hover {
+    background: $main-orange;
+    color: $main-white;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container #modal {
+    background: white;
+}
+
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: .8rem !important;
+    color: $main-dark !important;
+    border-radius: 0 !important;
+    border: .1rem solid $main-dark !important;
+}
+
+.btn-black:hover {
+    background: $main-dark !important;
+    color: $main-white !important;
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: $main-orange;
+}
